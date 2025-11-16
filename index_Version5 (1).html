@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بوابة الألعاب الإلكترونية</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 id="main-title">بوابة الألعاب الإلكترونية</h1>
+        <button id="toggle-theme">تبديل الوضع</button>
+    </header>
+    <nav>
+        <a href="#" data-section="home" class="active">الرئيسية</a>
+        <a href="#" data-section="reviews">مراجعات الألعاب</a>
+        <a href="#" data-section="news">الأخبار</a>
+        <a href="#" data-section="download">تحميل FIFA 2023</a>
+    </nav>
+    <main>
+        <section id="home" class="show">
+            <h2>مرحباً بك!</h2>
+            <p id="greeting">استكشف عالم الألعاب والإثارة.</p>
+            <button id="change-greeting">غيّر النص الترحيبي</button>
+            <img src="https://via.placeholder.com/500x250?text=Gaming+World" alt="ألعاب إلكترونية">
+        </section>
+        
+        <section id="reviews">
+            <h2>مراجعات الألعاب</h2>
+            <div class="card">
+                <h3>FIFA 2024</h3>
+                <p>إصدار مذهل لعشاق كرة القدم مع رسومات وتجربة لعب رائعة.</p>
+                <span>التقييم: 9.2/10</span>
+            </div>
+            <div class="card">
+                <h3>Valorant</h3>
+                <p>لعبة تصويب تنافسية بمهارات وخرائط متنوعة وجديدة.</p>
+                <span>التقييم: 8.8/10</span>
+            </div>
+        </section>
+        
+        <section id="news">
+            <h2>آخر أخبار الألعاب</h2>
+            <ul>
+                <li>إطلاق طور جديد في Apex Legends يغير أسلوب اللعب كلياً!</li>
+                <li>لعبة Minecraft تضيف تحديثات تحمل مفاجآت للاعبين.</li>
+                <li>حدث خاص في Fortnite مع جوائز فريدة الأسبوع القادم.</li>
+            </ul>
+        </section>
+
+        <section id="download">
+            <h2>تحميل لعبة FIFA 2023</h2>
+            <img src="https://via.placeholder.com/400x200?text=FIFA+2023" alt="FIFA 2023" style="max-width:100%;margin-bottom:15px;">
+            <div class="card">
+                <p>
+                    جرب لعبة FIFA 2023 واستمتع بأجواء المباريات الحماسية! اضغط الزر لتحميل التطبيق مباشرة على جهازك.
+                </p>
+                <button id="download-fifa">تحميل لعبة FIFA 2023</button>
+                <div id="download-message" style="margin-top:17px; font-weight: bold; color: #1a7032;"></div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 بوابة الألعاب الإلكترونية. جميع الحقوق محفوظة.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
